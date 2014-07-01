@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BIDViewController.h"
 
 @interface BIDAppDelegate : UIResponder <UIApplicationDelegate>
+{
+    
+
+}
+
 
 @property (strong, nonatomic) UIWindow *window;
+@property(strong,nonatomic)BIDViewController *obj;
+
 
 @end
